@@ -5,3 +5,7 @@ body {
 p {
   color: #6e2db7;
 }
+
+#footer {
+  background-color: rgb(58, 58, 58);
+}
