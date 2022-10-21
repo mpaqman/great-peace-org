@@ -65,6 +65,7 @@ body {
   font-style: normal;
   letter-spacing: 14px;
   line-height: 1;
+  font-family: gruppo;
 }
 
 #footer-fb {
@@ -77,4 +78,15 @@ body {
   content: "";
   clear: both;
   display: table;
+}
+
+#enter-button {
+  background-color: #6e2db7;
+  border-radius: 8px;
+  padding: 0px 10px 0px 10px;
+  color:azure;
+  margin: auto;
+  width: fit-content;
+  font-style:italic;
+  font-family: gruppo;
 }
