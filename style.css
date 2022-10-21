@@ -1,11 +1,46 @@
 body {
     background-color: black;
+    color: #6e2db7;
   }
 
-p {
-  color: #6e2db7;
+.header-item {
+  display:inline-block;
+}
+
+#header-buttons {
+  background-color: rgb(177, 177, 177);
+}
+
+#header-buttons a {
+  color: black;
+  /*float: left;
+  display: block;*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#header-buttons a:hover {
+  background-color: rgb(100,100,100);
+  color: rgb(20,20,20);
+}
+
+.main-content {
+  margin: auto;
+  width: 80%;
 }
 
 #footer {
   background-color: rgb(58, 58, 58);
+  margin: auto;
+  width: 80%;
+}
+
+#footer-text {
+  display:inline-block;
+}
+
+#footer-fb {
+  display:inline;
+  float: right;
 }
