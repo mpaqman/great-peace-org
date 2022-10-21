@@ -44,3 +44,9 @@ body {
   display:inline;
   float: right;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
