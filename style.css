@@ -13,7 +13,14 @@ body {
 
 #header-text {
   display:inline-block;
-  font-size: 22px;
+  left: 61px;
+  top: 10px;
+  width: 348px;
+  height: 56px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 14px;
+  line-height: 1;
 }
 
 #header-buttons {
@@ -30,13 +37,14 @@ body {
 }
 
 #header-buttons a:hover {
-  background-color: rgb(100,100,100);
+  background-color: rgb(162, 88, 211);
   color: rgb(20,20,20);
 }
 
 .main-content {
   margin: auto;
   width: 80%;
+  text-align: center;
 }
 
 #footer {
