@@ -90,3 +90,8 @@ body {
   font-style:italic;
   font-family: gruppo;
 }
+
+#enter-button:hover {
+  background-color: #6d2db76e;
+  font-style: normal;
+}
