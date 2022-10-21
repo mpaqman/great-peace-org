@@ -3,13 +3,17 @@ body {
     color: #6e2db7;
   }
 
+#header {
+  font-family:gruppo;
+}
+
 .header-item {
   display:inline-block;
 }
 
 #header-text {
   display:inline-block;
-  font-family:gruppo;
+  font-size: 22px;
 }
 
 #header-buttons {
