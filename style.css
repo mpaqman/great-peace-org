@@ -121,6 +121,48 @@ h2 {
   font-style: normal;
 }
 
+#mission-statement {
+  font-size: 28px;
+  font-family: gruppo;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  width: 60%;
+  margin: auto;
+}
+
+#goals-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: gruppo;
+  font-size: 28px;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  width: 70%;
+  margin: auto;
+}
+
+.goals-sub-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.goal-square {
+  flex-basis: 400px;
+}
+
+.fit {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  width: 25%;
+  height: width;
+}
+
 .testimonial-box {
   color: #b1b1b1;
   font-family: asap;
