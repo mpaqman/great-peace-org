@@ -80,6 +80,16 @@ body {
   display: table;
 }
 
+h1 {
+  color: #b1b1b1;
+  font-family: 'Gruppo';
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
 h2 {
   color:#6e2db7;
   font-family: 'Gruppo';
@@ -91,6 +101,7 @@ h2 {
 
 .current-page{
   border-bottom: 4px solid #6e2db7;
+  border-top: 2px solid #6e2db7;
 }
 
 #enter-button {
@@ -107,6 +118,18 @@ h2 {
 #enter-button:hover {
   background-color: #6d2db76e;
   font-style: normal;
+}
+
+.testimonial-box {
+  color: #b1b1b1;
+  font-family: asap;
+  font-size: 14px;
+  text-align: justify;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  margin: 10px 80px 10px 80px;
+  flex-basis: 45%;
 }
 
 .signature {
