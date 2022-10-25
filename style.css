@@ -349,6 +349,40 @@ h2 {
   padding-bottom: 25px;
 }
 
+#moon-newsletter {
+  background-color:#b1b1b1;
+  color:#6e2db7;
+  margin:auto;
+  width: 40%;
+  padding: 5px 10px 10px 10px;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+#moon-newsletter label {
+  display:none;
+}
+
+#moon-newsletter input {
+  display:inline;
+  margin-top:2px;
+  margin-bottom: 2px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 95%;
+}
+
+#moon-newsletter-submit {
+  border:none;
+  border-radius: 10px;
+  margin: 8px 0px 0px 0px !important;
+  width: 20% !important;
+  background-color: #3d037e;
+  color:#b1b1b1;
+  font-size: 16px;
+  font-family: gruppo;
+}
+
 .flexy {
   display: flex;
   flex-direction: row;
