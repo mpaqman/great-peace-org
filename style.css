@@ -384,6 +384,71 @@ h2 {
   font-family: gruppo;
 }
 
+#bird-image {
+  height: 80px;
+  width: 90%;
+  object-fit: cover;
+}
+
+.contact-text {
+  color:#b1b1b1;
+  font-family:asap;
+  text-align: justify;
+}
+
+.contact-main-column {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 24%
+}
+
+#contact-subscribe-container {
+  background-color: white;
+  color:#000000;
+  text-align: justify;
+  padding: 0px 10px 10px 10px;
+}
+
+.red-star {
+  display: inline;
+  color: rgb(255, 55, 88);
+}
+
+#contact-subscribe-container input {
+  margin: 5px 5px 5px 5px;
+}
+
+#contact-quotebox {
+  background-color: #000000;
+  color:#b1b1b1;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid #3d037e;
+  border-radius: 10px;
+  font-family: asap;
+  font-size: 20px;
+}
+
+#contact-form-container label {
+  display: none;
+}
+
+#contact-form-container {
+  background-color:#3d037e;
+  color:black;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+#contact-form-container input {
+  margin: 5px 0px 5px 0px;
+}
+
+#contact-message {
+  height: 100px;
+}
+
 .flexy {
   display: flex;
   flex-direction: row;
