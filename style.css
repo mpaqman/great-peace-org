@@ -323,6 +323,16 @@ h2 {
   height: 200px;
 }
 
+@media only screen and (max-width: 1000px) {
+  #contribute-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  #contribute-grid-right {
+    margin-top:20px;
+  }
+}
+
 .moon-box {
   background-color: black;
   border: 4px solid #3d037e;
