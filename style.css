@@ -49,9 +49,31 @@ body {
   color: rgb(20,20,20);
 }
 
-#header-dropdown-button {
-  display:none;
+#header-dropdown-container {
+  display: none;
 }
+
+.header-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-decoration: underline;
+}
+
+.header-dropdown-content a {
+  color: #b1b1b1;
+  padding: 8px 16px;
+  font-size:20px;
+  text-decoration: none;
+  display: block;
+}
+
+.header-dropdown-content a:hover {background-color: rgb(162, 88, 211);}
+
+.show {display:block;}
 
 @media only screen and (max-width: 1000px) {
   #header-buttons {
@@ -78,8 +100,8 @@ body {
     right: 50px;
   }
 
-  #header-dropdown-button{
-    display:block;
+  #header-dropdown-container{
+    display:inline-block;
     position: absolute;
     top: 10px;
     left: 50px;
