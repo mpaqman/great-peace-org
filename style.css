@@ -5,6 +5,9 @@ body {
 
 #header {
   font-family:gruppo;
+  margin: auto;
+  width: 80%;
+  text-align: center;
 }
 
 #header-lang {
@@ -44,6 +47,43 @@ body {
 #header-buttons a:hover {
   background-color: rgb(162, 88, 211);
   color: rgb(20,20,20);
+}
+
+#header-dropdown-button {
+  display:none;
+}
+
+@media only screen and (max-width: 1000px) {
+  #header-buttons {
+    display:none;
+  }
+
+  #header-text {
+    color: #b1b1b1;
+    font-family: 'Gruppo';
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 14px;
+    line-height: 1;
+    text-transform: none;
+  }
+
+  #header{
+    width: 95%;
+  }
+
+  #header-lang{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
+
+  #header-dropdown-button{
+    display:block;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+  }
 }
 
 .main-content {
