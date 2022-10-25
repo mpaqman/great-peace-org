@@ -2,16 +2,25 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
+<script src="script.js"></script> 
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Kristi|Patrick+Hand|Crafty+Girls|Just+Another+Hand|Lato|Arvo|Crushed|Michroma|Lily+Script+One|Corben|Glass+Antiqua|Josefin+Sans|Lobster|Anton|Calligraffitti|Asap|Droid+Serif|Goudy+Bookletter+1911|Molengo|Signika|Dancing+Script|Architects+Daughter|Amaranth|Open+Sans:300|Coda|Open+Sans+Condensed:300|Merriweather|Fjalla+One|Chewy|Crimson+Text|Indie+Flower|Comfortaa|Yanone+Kaffeesatz|Homemade+Apple|Cardo|Orbitron|Cutive|Gruppo|Raleway|Roboto+Condensed|Allan|Mountains+of+Christmas|Kaushan+Script|Roboto+Slab|Roboto|Amiri|Lateef|Scheherazade|Sacramento|Meddon|Montserrat|Playfair+Display|Poppins|Work+Sans|Droid+Sans|Pathway+Gothic+One|DM+Sans|Manrope|Lexend+Deca|PT+Serif|Frank+Ruhl+Libre|Libre+Caslon+Text|Dela+Gothic+One|Righteous|Parisienne|Anek+Gurmukhi|Inter|Nunito+Sans|Prompt|Epilogue|Libre+Baskerville|Hahmlet|Fraunces|Elsie+Swash+Caps|Alfa+Slab+One|Berkshire+Swash|Syne|Libre+Franklin|Heebo|Kanit|Fira+Sans|Barlow+Condensed|Archivo|Literata|Rasa|Newsreader|Anonymous+Pro|Sansita+Swashed|Bebas+Neue|Great+Vibes|Petit+Formal+Script|Style+Script" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-<div class="main-content">
     <div id="header">
-        
-        <a href="fr.html"><div id="header-lang">
-            <image src="images/language-icon.svg" width="30px"></image>
-        </div></a>
+        <div id="header-dropdown-container">
+            <image src="images/menu-icon.svg" width="30px" onclick="dropMenu()" class="header-dropdown-button"></image>
+            <div class="header-dropdown-content" id="header-dropdown-content-id">
+                <a href="index.html">Home</a>
+                <a href="mission.html">Mission</a>
+                <a href="testimonials.html">Events/Testimonials</a>
+                <a href="contribute.html">Contribute</a>
+                <a href="moon.html">Moon Protection</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div id="header-lang"><a href="fr.html">
+            <image src="images/language-icon.svg" width="30px"></image></a>
+        </div>
         <div id="header-text">
             Great Peace
             <br>
@@ -26,6 +35,7 @@
             <a href="contact.html">Contact</a>
         </div>
     </div>
+<div class="main-content">
     <div id="contribute-grid">
         <div id="contribute-grid-left">
             <p>The Great Peace Organization is a non-profit organization.<br><br>
