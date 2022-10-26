@@ -74,13 +74,13 @@
             <div class="contact-main-column">
                 <div id="contact-subscribe-container">
                     <br><b>Subscribe</b><br><br>
-                    <form autocomplete="on" method="post">
+                    <form autocomplete="on" method="post" data-netlify="true" class="email-form">
                         <label for="email">Courriel:</label><p class="red-star">  *</p><br>
-                        <input type="email" id="email" name="email" placeholder="Votre courriel"><br>
+                        <input type="email" id="email" name="email" placeholder="Votre courriel" required><br>
                         <label for="firstname">Prénom:</label><p class="red-star">  *</p><br>
-                        <input type="text" id="firstname" name="firstname" placeholder="Votre prénom"><br>
+                        <input type="text" id="firstname" name="firstname" placeholder="Votre prénom" required><br>
                         <label for="lastname">Nom de famille:</label><p class="red-star">  *</p><br>
-                        <input type="text" id="lastname" name="lastname" placeholder="Votre nom de famille"><br>
+                        <input type="text" id="lastname" name="lastname" placeholder="Votre nom de famille" required><br>
                         <input type="submit" value="Inscrivez-vous" id="contact-subscribe-submit">
                     </form>
                 </div>
@@ -93,7 +93,7 @@
                 <br><br>
                 <div id="contact-form-container">
                     <b id="contact-form-title">Envoyez-nous un message</b>
-                    <form autocomplete="on" method="post">
+                    <form autocomplete="on" method="post" data-netlify="true">
                         <label for="email">Courriel:</label>
                         <input type="email" id="email" name="email" placeholder="Votre courriel"><br>
                         <label for="firstname">Prénom:</label>
@@ -113,6 +113,8 @@
     <div id="footer-text">Organisation<br>de la Grande<br>Paix</div>
     <div id="footer-fb"><a href="https://www.facebook.com/greatpeaceorg/"><image src="../images/fb.svg" width="40px"></image></a></div>
 </div>
+
+<script src="../handle-form.js"></script> 
 
 </body>
 </html> 
