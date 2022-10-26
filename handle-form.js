@@ -20,7 +20,6 @@ const processForm = form => {
     console.log(emailForm)
     emailForm.addEventListener('submit', e => {
       e.preventDefault();
-      console.log("email! email! email!");
       processForm(emailForm);
     })
   }
