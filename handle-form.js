@@ -17,7 +17,8 @@ const processForm = form => {
   
 const emailForm = document.querySelector('.email-form');
 if (emailForm) {
-  console.log(emailForm)
+  //console.log(emailForm)
+  emailForm.setAttribute("data-netlify","false");
   emailForm.addEventListener('submit', e => {
     e.preventDefault();
     processForm(emailForm);
@@ -26,6 +27,7 @@ if (emailForm) {
 
 const messsageForm = document.querySelector('.message-form');
 if (messsageForm) {
+  messsageForm.setAttribute("data-netlify","false");
   messsageForm.addEventListener('submit', e => {
     e.preventDefault();
     processForm(messsageForm);
