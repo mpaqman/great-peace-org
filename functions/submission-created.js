@@ -3,7 +3,8 @@ module.exports.handler = async event => {
     const email = payload.data.email;
     const firstname = payload.data.firstname;
     const lastname = payload.data.lastname;
+    const message = payload.data.message;
     //console.log(payload)
-    console.log(`Recieved a submission: ${email} ${firstname} ${lastname}`);
+    console.log(`Recieved a submission: ${email} ${firstname} ${lastname} ${message}`);
 
 }
