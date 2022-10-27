@@ -15,11 +15,19 @@ const processForm = form => {
   }
 
   
-  const emailForm = document.querySelector('.email-form');
-  if (emailForm) {
-    console.log(emailForm)
-    emailForm.addEventListener('submit', e => {
-      e.preventDefault();
-      processForm(emailForm);
-    })
-  }
+const emailForm = document.querySelector('.email-form');
+if (emailForm) {
+  console.log(emailForm)
+  emailForm.addEventListener('submit', e => {
+    e.preventDefault();
+    processForm(emailForm);
+  })
+}
+
+const messsageForm = document.querySelector('.message-form');
+if (messsageForm) {
+  messsageForm.addEventListener('submit', e => {
+    e.preventDefault();
+    processForm(messsageForm);
+  })
+}
