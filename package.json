@@ -1,0 +1,22 @@
+{
+  "name": "greatpeaceorg",
+  "version": "1.0.0",
+  "description": "Great Peace Organization website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpaqman/great-peace-org.git"
+  },
+  "author": "Merrick Paq-Man",
+  "license": "SEE LICENSE IN LICENSE\"",
+  "bugs": {
+    "url": "https://github.com/mpaqman/great-peace-org/issues"
+  },
+  "homepage": "https://github.com/mpaqman/great-peace-org#readme",
+  "dependencies": {
+    "netlify-cli": "^12.0.11"
+  }
+}
