@@ -402,6 +402,11 @@ h2 {
   width: 24%
 }
 
+.contact-main-column-image{
+  max-width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width: 1000px) {
   .contact-main-column {
     width: 100%;
