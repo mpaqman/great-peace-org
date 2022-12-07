@@ -386,7 +386,7 @@ h2 {
 
 #bird-image {
   height: 80px;
-  width: 90%;
+  width: 75%;
   object-fit: cover;
 }
 
@@ -400,6 +400,11 @@ h2 {
   margin-left: 10px;
   margin-right: 10px;
   width: 24%
+}
+
+.contact-main-column-image{
+  max-width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 1000px) {
